@@ -1,5 +1,6 @@
 ## Creates a matrix object that can cache its inverse
 ## Supply a matrix, example makeCacheMatrix(matrix)
+## Returns a list of functions
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
